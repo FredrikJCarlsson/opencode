@@ -13,5 +13,7 @@
     "multimodal-looker": {
       "model": "github-copilot/gemini-3-flash-preview"
     }
-  }
+  },
+
+  "disabled_mcps": ["websearch_exa"]
 }
