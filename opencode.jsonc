@@ -1,7 +1,41 @@
 {
   "$schema": "https://opencode.ai/config.json",
   // Theme configuration
-  "theme": "opencode",
-  "model": "anthropic/claude-sonnet-4-5",
+  "theme": "catpuchi",
   "autoupdate": true,
+  
+  // Plugins
+  "plugin": ["oh-my-opencode"],
+
+  "permission": {
+    "edit": "ask",
+    "bash": {
+      // Dangerous commands - require confirmation
+      "rm -rf": "ask",
+      "rm -fr": "ask",
+      "rm -f": "ask",
+      "git push --force": "deny",
+      "git push -f": "deny",
+      "git reset --hard": "deny",
+      "git clean -fd": "deny",
+      "npm publish": "deny",
+      "dd": "deny",
+      "sudo *": "ask",
+      
+      // Basic commands
+      "git add": "allow",
+      "git commit": "allow",
+      "git checkout": "allow",
+      
+      // Git operations
+      "git push": "ask",
+      "git status": "allow",
+      "git diff": "allow",
+      
+      // Build and basic commands
+      "npm run build": "allow",
+      "ls": "allow",
+      "pwd": "allow"
+    }
+  }
 }
