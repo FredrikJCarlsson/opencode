@@ -8,7 +8,7 @@
   "plugin": ["oh-my-opencode"],
 
   "permission": {
-    "edit": "ask",
+    "edit": "allow",
     "bash": {
       // Dangerous commands - require confirmation
       "rm -rf": "ask",

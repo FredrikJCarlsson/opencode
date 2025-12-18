@@ -8,7 +8,7 @@
       "model": "github-copilot/gemini-3-pro-preview"
     },
     "document-writer": {
-      "model": "github-copilot/gemini-3-pro-preview"
+      "model": "github-copilot/gemini-3-flash-preview"
     },
     "multimodal-looker": {
       "model": "github-copilot/gemini-3-flash-preview"
