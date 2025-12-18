@@ -1,6 +1,6 @@
 ---
 description: General-purpose agent for answering questions and providing information
-mode: subagent
+mode: primary
 model: anthropic/claude-sonnet-4-5
 temperature: 0.1
 permission: 
