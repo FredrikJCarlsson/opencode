@@ -3,7 +3,21 @@
   // Theme configuration
   "theme": "catppuccin",
   "autoupdate": true,
-  
+
+  "agent": {
+    "OmO": {
+      "mode": "primary",
+      "model": "anthropic/claude-sonnet-4-5",
+      "temperature": 0.3
+    },
+    "OmO-Plan": {
+      "mode": "primary",
+      "model": "anthropic/claude-opus-4-5",
+      "prompt": "{file:./prompts/plan.txt}",
+      "temperature": 0.1
+    }
+  },
+
   // Plugins
   "plugin": ["oh-my-opencode"],
 
