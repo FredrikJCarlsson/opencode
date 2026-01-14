@@ -6,6 +6,25 @@
     "opencode-openai-codex-auth@4.2.0"
   ],
   "disabled_providers": ["anthropic"],
+  "permission": {
+    "*": "ask",
+    "bash": {
+      "*":"ask",
+      "sudo *": "deny",
+      "rm *":"ask",
+      "git *":"ask"
+    },
+    "edit": {
+      "*":"ask",
+      "C:/GIT/*":"allow"
+    },
+    "read": {
+      "*": "allow",
+      "*.env": "deny",
+      "*.env.*": "deny",
+      "*.env.example": "allow"
+    }
+  },
   "provider": {
     "openai": {
       "options": {
