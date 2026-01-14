@@ -5,6 +5,7 @@
     "opencode-openai-codex-auth",
     "opencode-openai-codex-auth@4.2.0"
   ],
+  "disabled_providers": ["anthropic"],
   "provider": {
     "openai": {
       "options": {
