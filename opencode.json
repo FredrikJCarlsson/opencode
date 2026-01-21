@@ -3,7 +3,8 @@
   "plugin": [
     "oh-my-opencode",
     "opencode-openai-codex-auth",
-    "opencode-openai-codex-auth@4.2.0"
+    "opencode-openai-codex-auth@4.2.0",
+    "cc-safety-net"
   ],
   "disabled_providers": ["anthropic"],
   "permission": {
