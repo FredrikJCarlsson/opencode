@@ -38,6 +38,13 @@
       "*.env.example": "allow"
     }
   },
+  "mcp": {
+    "linear": {
+      "type": "local",
+      "command": ["npx", "-y", "mcp-remote", "https://mcp.linear.app/mcp"],
+      "enabled": true,
+    }
+  },
   "provider": {
     "openai": {
       "options": {
