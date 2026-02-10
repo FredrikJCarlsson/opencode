@@ -5,7 +5,7 @@
     // "oh-my-opencode",
     "opencode-openai-codex-auth",
     "cc-safety-net",
-    "@tarquinen/opencode-dcp@latest"
+    // "@tarquinen/opencode-dcp@latest"
   ],
   "disabled_providers": ["anthropic"],
   "permission": {
@@ -40,9 +40,7 @@
       "*.env": "deny",
       "*.env.*": "deny",
       "*.env.example": "allow"
-
     }
-
   },
 
   "mcp": {
